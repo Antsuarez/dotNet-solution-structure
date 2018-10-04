@@ -8,6 +8,7 @@ The repo is about a script that creates a .Net solution with a useful folder str
 
 [A good explanation of the structure](https://gist.github.com/davidfowl/ed7564297c61fe9ab814#file-dotnetlayout-md)
 
+The script download the gitignore file fron the [VisualStudio gitignore repo](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
 
 # How to use it
 

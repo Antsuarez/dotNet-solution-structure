@@ -42,7 +42,7 @@ REM echo Proyect name %1
 
 
 :: Running without administrator access all details in https://www.howtogeek.com/204088/how-to-use-a-batch-file-to-make-powershell-scripts-easier-to-run/
-:: gitignore file from https://github.com/GtkSharp/GtkSharp/blob/develop/.gitignore
+:: gitignore file from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 @ECHO OFF
 PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "curl 'https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore' -OutFile "%projectName%\.gitignore
 REM PAUSE
