@@ -24,14 +24,18 @@ Example of solution with the name **NewProject**
 Once you open your blank solution and before you add some projects, you could add some `solution folders` to match the folder structure inside the `scr` and  `tests` folder
 
 *Visual Studio with solution folders added*
+
 ![ScreenShot](/docs/images/NewProjectSampleVisualStudioFolders.png)
 
+
 *src folder*
+
 ![ScreenShot](/docs/images/NewProjectSampleSrcProjects.png)
 
 
+
 # Todo
-Create a stadndar file for each of the following files to download into the solution at the moment of creation
+Create a standar file for each of the following files to download into the solution at the moment of creation
 - [x] .gitignore
 - [ ] .editorconfig
 - [ ] .gitattributes
@@ -44,11 +48,12 @@ Create a stadndar file for each of the following files to download into the solu
 - [ ] Support folder path as parameter or in the solution name
 
 
+
 # Reference
 
-Most if not all folders are based on the following link, there you can[find an explanation of the structure](https://gist.github.com/davidfowl/ed7564297c61fe9ab814#file-dotnetlayout-md) 
+Most, if not all, folders are based on the following structure, there you would [find a good explanation of the it](https://gist.github.com/davidfowl/ed7564297c61fe9ab814#file-dotnetlayout-md) 
 
-The script download the `.gitignore` file fron the [VisualStudio gitignore repo](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
+The script downloads the `.gitignore` file fron the [VisualStudio gitignore repo](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
 
 
 
@@ -61,4 +66,6 @@ Good one with a graphic interface [SolutionGenerator](https://github.com/WildGum
 ## Contributing
 
 Want to help me on this, please submit an issue or pull request
+
+
 
