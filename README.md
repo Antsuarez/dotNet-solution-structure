@@ -1,10 +1,12 @@
-# .Net Project Structure
+# .Net Solution Structure
 
 
-Script to create a .Net project folder structure with a blank solution just to start adding your projects 
+Script to create a .Net solution with a common folder structure with a blank solution just to start adding your projects.
 
-Download the DotNetProject.cmd file to you repository folder and execute it, enter a project name when requested and hit enter.
+Download the DotNetSolution.cmd file to your repository folder and execute it, enter a project name when requested and hit enter.
 
-This will create the project structure inside a folder with the name of the project you entered and a blank solution with this name also.
+This will create the followin structure of folders inside a folder with the given project name and a blanck solution with same name.
+
+
 
 
