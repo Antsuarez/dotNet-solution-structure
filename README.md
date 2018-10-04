@@ -20,8 +20,8 @@ The script will create the following structure of folders inside a folder with t
 
 Example of solution with the name **NewProject**
 
-![ScreenShot](/docs/imgages/NewProjectSample.png)
-![ScreenShot](/docs/imgages/NewProjectSampleSrc.png)
+![ScreenShot](/docs/images/NewProjectSample.png)
+![ScreenShot](/docs/images/NewProjectSampleSrc.png)
 
 
 # Todo
