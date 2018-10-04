@@ -51,7 +51,7 @@ Create a standar file for each of the following files to download into the solut
 
 # Reference
 
-Most, if not all, folders are based on the following structure, there you would [find a good explanation of the it](https://gist.github.com/davidfowl/ed7564297c61fe9ab814#file-dotnetlayout-md) 
+Most, if not all, folders are based on the following structure, there you would [find a good explanation of it](https://gist.github.com/davidfowl/ed7564297c61fe9ab814#file-dotnetlayout-md) 
 
 The script downloads the `.gitignore` file fron the [VisualStudio gitignore repo](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
 
