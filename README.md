@@ -1,15 +1,32 @@
 # .Net Solution Structure
 
 
-Script to create a .Net solution with a common folder structure with a blank solution just to start adding your projects.
+I want something easy that i can just execute and get the folder structure for a given solution, i did some research and found some good articles and i decided to make this repo to help others like me.
 
-I want something easy that i can just execute and get the folder structure, i did some research and found some good articles and i decided to make this repo to help others like me.
+The repo is about a script that creates a .Net solution with a useful folder structure and a blank solution just to start adding your projects.
+
+
+[A good explanation of the structure](https://gist.github.com/davidfowl/ed7564297c61fe9ab814#file-dotnetlayout-md)
+
 
 # How to use it
 
-Download the DotNetSolution.cmd file to your repository folder and execute it, enter a project name when requested and hit enter.
+**Windows**
 
-This will create the followin structure of folders inside a folder with the given project name and a blanck solution with same name.
+- Download the **DotNetSolution.cmd** file to your repository folder and execute it
+- Enter a project name when requested and hit enter.
+
+The script will create the following structure of folders inside a folder with the given solution name and a blank solution with same name.
+
+Example of solution with the name **NewProject**
+
+![ScreenShot](/doc/imgages/NewProjectSample.png)
+![ScreenShot](/doc/imgages/NewProjectSampleSrc.png)
+
+
+# Todo
+
+
 
 
 # Similar projects found 

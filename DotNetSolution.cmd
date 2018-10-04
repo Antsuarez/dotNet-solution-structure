@@ -4,7 +4,7 @@ cls
 set projectName=%1
 if "%~1"=="" SET /P projectName=Please enter a proyect name: 
 
-echo we read %projectName%
+REM echo we read %projectName%
 if "%projectName%"=="" set projectName=NewProject
 set SolutionPath=%projectName%
 
