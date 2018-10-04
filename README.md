@@ -6,10 +6,6 @@ I want something easy that i can just execute and get the folder structure for a
 The repo is about a script that creates a .Net solution with a useful folder structure and a blank solution just to start adding your projects.
 
 
-[A good explanation of the structure](https://gist.github.com/davidfowl/ed7564297c61fe9ab814#file-dotnetlayout-md)
-
-The script download the gitignore file fron the [VisualStudio gitignore repo](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
-
 # How to use it
 
 **Windows**
@@ -25,8 +21,34 @@ Example of solution with the name **NewProject**
 ![ScreenShot](/docs/images/NewProjectSampleSrc.png)
 
 
-# Todo
+Once you open your blank solution and before you add some projects, you could add some `solution folders` to match the folder structure inside the `scr` and  `tests` folder
 
+*Visual Studio with solution folders added*
+![ScreenShot](/docs/images/NewProjectSampleVisualStudioFolders.png)
+
+*src folder*
+![ScreenShot](/docs/images/NewProjectSampleSrcProjects.png)
+
+
+# Todo
+Create a stadndar file for each of the following files to download into the solution at the moment of creation
+- [x] .gitignore
+- [ ] .editorconfig
+- [ ] .gitattributes
+- [ ] .gitignore
+- [ ] build.cmd
+- [ ] build.sh
+- [ ] Nuget.Config
+
+- [ ] Create a license selector and download selected to the LICENSE solution file
+- [ ] Support folder path as parameter or in the solution name
+
+
+# Reference
+
+Most if not all folders are based on the following link, there you can[find an explanation of the structure](https://gist.github.com/davidfowl/ed7564297c61fe9ab814#file-dotnetlayout-md) 
+
+The script download the `.gitignore` file fron the [VisualStudio gitignore repo](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
 
 
 
