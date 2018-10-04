@@ -14,14 +14,14 @@ The repo is about a script that creates a .Net solution with a useful folder str
 **Windows**
 
 - Download the **DotNetSolution.cmd** file to your repository folder and execute it
-- Enter a project name when requested and hit enter.
+- Enter a solution name when requested and hit enter.
 
 The script will create the following structure of folders inside a folder with the given solution name and a blank solution with same name.
 
 Example of solution with the name **NewProject**
 
-![ScreenShot](/doc/imgages/NewProjectSample.png)
-![ScreenShot](/doc/imgages/NewProjectSampleSrc.png)
+![ScreenShot](/docs/imgages/NewProjectSample.png)
+![ScreenShot](/docs/imgages/NewProjectSampleSrc.png)
 
 
 # Todo

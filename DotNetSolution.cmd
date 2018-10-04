@@ -2,7 +2,7 @@
 cls
 
 set projectName=%1
-if "%~1"=="" SET /P projectName=Please enter a proyect name: 
+if "%~1"=="" SET /P projectName=Please enter a solution name: 
 
 REM echo we read %projectName%
 if "%projectName%"=="" set projectName=NewProject
@@ -44,7 +44,6 @@ REM echo Proyect name %1
 :: Running without administrator access all details in https://www.howtogeek.com/204088/how-to-use-a-batch-file-to-make-powershell-scripts-easier-to-run/
 :: gitignore file from https://github.com/GtkSharp/GtkSharp/blob/develop/.gitignore
 @ECHO OFF
-REM PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "curl 'https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore' -OutFile "%1\.gitignore
 PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "curl 'https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore' -OutFile "%projectName%\.gitignore
 REM PAUSE
 
