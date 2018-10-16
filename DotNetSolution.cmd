@@ -22,12 +22,12 @@ if not exist %SolutionPath%"\src"       (mkdir %SolutionPath%"\src")
 if not exist %SolutionPath%"\src\modules"       (mkdir %SolutionPath%"\src\modules")
 if not exist %SolutionPath%"\src\database"       (mkdir %SolutionPath%"\src\database")
 if not exist %SolutionPath%"\tests"     (mkdir %SolutionPath%"\tests")
-if not exist %SolutionPath%"\.editorconfig"  (echo ' ' >> %SolutionPath%"\.editorconfig"  )
-if not exist %SolutionPath%"\.gitattributes" (echo ' ' >> %SolutionPath%"\.gitattributes" )
-if not exist %SolutionPath%"\build.cmd"      (echo ' ' >> %SolutionPath%"\build.cmd"      )
-if not exist %SolutionPath%"\build.sh"       (echo ' ' >> %SolutionPath%"\build.sh"       )
+if not exist %SolutionPath%"\.editorconfig"  (echo '' >> %SolutionPath%"\.editorconfig"  )
+if not exist %SolutionPath%"\.gitattributes" (echo '' >> %SolutionPath%"\.gitattributes" )
+if not exist %SolutionPath%"\build.cmd"      (echo '' >> %SolutionPath%"\build.cmd"      )
+if not exist %SolutionPath%"\build.sh"       (echo '' >> %SolutionPath%"\build.sh"       )
 if not exist %SolutionPath%"\LICENSE"        (echo "Add license here" >> %SolutionPath%"\LICENSE" )
-if not exist %SolutionPath%"\NuGet.Config"   (echo "info" >> %SolutionPath%"\NuGet.Config"   )
+REM if not exist %SolutionPath%"\NuGet.Config"   (echo '' >> %SolutionPath%"\NuGet.Config"   )
 if not exist %SolutionPath%"\README.md"      (echo %projectName% was created %date% >> %SolutionPath%"\README.md" )
 
 :: Creating a blank solucion inside the proyect foder
@@ -45,6 +45,7 @@ REM echo Proyect name %1
 :: gitignore file from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 @ECHO OFF
 PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "curl 'https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore' -OutFile "%projectName%\.gitignore
+PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "curl 'https://raw.githubusercontent.com/Antsuarez/dotNet-solution-structure/master/files/NuGetv3.Config' -OutFile "%projectName%\NuGet.Config
 REM PAUSE
 
 
